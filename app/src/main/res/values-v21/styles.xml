@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Toolbar_top" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:colorPrimary">@color/drawertem</item>
+        <item name="android:colorPrimaryDark">@color/drawertem</item>
+
+    </style>
+
+    <!--<style name="Toolbar_top" parent="@style/ThemeOverlay.AppCompat.Light">-->
+        <!--<item name="android:colorPrimary">@color/drawertem</item>-->
+        <!--<item name="android:colorPrimaryDark">@color/drawertem</item>-->
+
+    <!--</style>-->
+
+
+</resources>

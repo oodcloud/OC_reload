@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/personal_container"
+    android:layout_width="match_parent"
+    android:background="#f4f4f4"
+    android:layout_height="match_parent">
+    <include layout="@layout/customtoolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="清除图片缓存"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:background="@drawable/bg_layout_shape"
+       android:layout_gravity="center_horizontal"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="移动网络下是否加载图片"
+
+            android:textSize="16dp"
+            />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+    android:text="意见反馈"
+        android:id="@+id/content_back"
+        android:textSize="16dp"
+    android:background="@drawable/bg_layout_shape"
+        android:textColor="#000"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center_horizontal"
+    />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="授权设置"
+        android:textSize="16dp"
+        android:background="@drawable/bg_layout_shape"
+        android:textColor="#000"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="夜间模式"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:background="@drawable/bg_layout_shape"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    </LinearLayout>
+</LinearLayout>

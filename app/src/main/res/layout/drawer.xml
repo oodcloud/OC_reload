@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.NavigationView
+    android:id="@+id/nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+
+    app:itemTextColor="#87000000"
+    app:headerLayout="@layout/nav_header_main2"
+    app:menu="@menu/activity_main2_drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="3dp"
+    android:translationZ="3dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto" />
+

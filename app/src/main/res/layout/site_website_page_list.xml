@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/site_website_toolbar"
+        android:paddingTop="40dp"
+        app:title="@style/ToolbarTitle"
+        android:background="@android:color/holo_green_dark"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:indeterminateDrawable="@drawable/progressbar"
+            android:id="@+id/page_list_progressbar"/>
+    </android.support.v7.widget.Toolbar>
+
+    <com.baoyz.widget.PullRefreshLayout
+        android:id="@+id/website_swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#87f2f2f2"
+        android:divider="@null"
+        android:id="@+id/website_listview"
+        ></ListView>
+    </com.baoyz.widget.PullRefreshLayout>
+
+
+
+</LinearLayout>

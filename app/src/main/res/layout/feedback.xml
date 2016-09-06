@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dbdbdb"
+    android:layout_gravity="center">
+    <include layout="@layout/customtoolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="意见反馈"
+
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textColor="#000"
+        android:paddingTop="5dp"
+        android:textSize="14sp"
+        android:text="@string/feedback"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:background="@drawable/bg_layout_shape"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

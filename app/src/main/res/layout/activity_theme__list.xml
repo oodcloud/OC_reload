@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        app:navigationIcon="@drawable/nav"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/toolbar_theme"
+        android:elevation="6dp"
+        android:translationZ="3dp"
+        ></android.support.v7.widget.Toolbar>
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:id="@+id/theme_container"
+       android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

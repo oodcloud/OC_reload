@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fafafa"
+    android:gravity="center_horizontal"
+    tools:context="cn.oddcloud.www.oc_reload.View.Activity.User_detail_information">
+   <include layout="@layout/customtoolbar"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logos"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:background="#fafafa"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+
+                android:textColor="@android:color/holo_green_light"
+                android:text="手机号:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone_user"
+                android:layout_marginLeft="50dp"
+                android:text="15382290721"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textColor="@android:color/holo_green_light"
+                android:text="当前浏览文章量:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/liulanpage"
+                android:layout_marginLeft="30dp"
+                android:text="500"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="80dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+
+                android:textColor="@android:color/holo_green_light"
+                android:text="绑定的QQ:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_qq"
+                android:layout_marginLeft="30dp"
+                android:text="未绑定"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="80dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+
+                android:textColor="@android:color/holo_green_light"
+                android:text="当前收藏文章:"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/collect_page"
+                android:layout_marginLeft="30dp"
+                android:text="1000"
+
+                />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_layout_shape"
+            android:layout_height="40dp"
+            android:id="@+id/btn_loginout"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="退出登录"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

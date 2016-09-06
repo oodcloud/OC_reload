@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">奇云</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_us">我们是大连东软信息学院2014级的学生，我们立志打造一款服务于IT领域的个性阅读app。</string>
+    <string name="about_soft">请相信我们，我们一定会尽快开发出成型的app，尽管我们的知识还有很大的欠缺，我们会竭尽全力完成所有功能。</string>
+    <string name="feedback">您宝贵的意见是对我们的肯定，您宝贵的意见会让更多的用户享受到优质的用户体验，无论什么宝贵意见我们都会认真对待。</string>
+</resources>
